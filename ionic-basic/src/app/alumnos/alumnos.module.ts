@@ -7,7 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { AlumnosPageRoutingModule } from './alumnos-routing.module';
 
 import { AlumnosPage } from './alumnos.page';
-import { DatosAlumnoComponent } from '../datos-alumnos/datos-alumnos.component';
+import { DatosAlComponent } from '../componente/datos-a/datos-a.component';
 
 @NgModule({
   imports: [
@@ -16,7 +16,7 @@ import { DatosAlumnoComponent } from '../datos-alumnos/datos-alumnos.component';
     IonicModule,
     AlumnosPageRoutingModule
   ],
-  declarations: [AlumnosPage, DatosAlumnoComponent]
+  declarations: [AlumnosPage, DatosAlComponent]
 })
 
 export class AlumnosPageModule {}
