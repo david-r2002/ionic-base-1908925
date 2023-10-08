@@ -14,7 +14,8 @@ const routes: Routes = [
   {
     path: 'presupuesto',
     loadChildren: () => import('./presupuesto/presupuesto.module').then( m => m.PresupuestoPageModule)
-  },  {
+  },
+  {
     path: 'alumnos',
     loadChildren: () => import('./alumnos/alumnos.module').then( m => m.AlumnosPageModule)
   },
@@ -33,6 +34,10 @@ const routes: Routes = [
   {
     path: 'receta',
     loadChildren: () => import('./receta/receta.module').then( m => m.RecetaPageModule)
+  },
+  {
+    path: 'tabs',
+    loadChildren: () => import('./tabs/tabs.module').then( m => m.TabsPageModule)
   },
 
 ];
